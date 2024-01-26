@@ -4,24 +4,41 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 800px;
   background: #fff;
-  margin: 16px auto;
+  padding: 1px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 15px;
+  padding: 15px;
+  font-size: 26pt;
+}
+
+.content, .button-container, .button {
+  font-size: 30px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 15px;
+  padding: 30px 15px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 40px;
+  font-size: 21pt;
+
 }

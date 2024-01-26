@@ -6,6 +6,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 15pt;
   margin: 0;
   background: #aaa;
   color: #333;
@@ -20,9 +21,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+}
+
+.modalMainSet {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.headerSet {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 17pt;
 }
 
 .icon {
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -31,6 +53,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -48,6 +71,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.btnSet {
+  padding-top: 15px;
 }
 
 button {
